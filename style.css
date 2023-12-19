@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#F4F2DE;
+}
+
+
+#mainNav {
+    min-height: 3.5rem;
+    background-color: #A1CCD1;
+  }
+
+  #mainNav .navbar-toggler:focus {
+    outline: none;
+  }
+  #mainNav .navbar-brand {
+    color: #000;
+    font-weight: 700;
+    padding: 0.9rem 0;
+  }
+  #mainNav .navbar-nav .nav-item:hover {
+    color: fade(#fff, 80%);
+    outline: none;
+    background-color: transparent;
+    font-family: 'Dancing Script';
+  }
+  #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: transparent;
+  }
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+      background-color:#7C9D96;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    #mainNav .navbar-brand {
+      padding: 0.5rem 0;
+      color: #000;
+    }
+    #mainNav .nav-link {
+      transition: none;
+      padding: 2rem 1.5rem;
+      color: #fff;
+    }
+    #mainNav .nav-link:hover {
+      color: #FFF4E0;
+    }
+    #mainNav .nav-link:active {
+      color: #E9B384;
+    }
+
+    #mainNav.navbar-shrink {
+      background-color: #fff3e7;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      color: #000;
+    }
+    #mainNav.navbar-shrink .nav-link {
+      color: #000;
+      padding: 1.5rem 1.5rem 1.25rem;
+      border-bottom: 0.25rem solid transparent;
+    }
+    #mainNav.navbar-shrink .nav-link:hover {
+      color: #fff3e7;
+    }
+    #mainNav.navbar-shrink .nav-link:active {
+      color: #fff3e7;
+    }
+    #mainNav.navbar-shrink .nav-link.active {
+      color: #fff3e7;
+      outline: none;
+      border-bottom: 0.25rem solid #fff3e7;
+    }
+  }
+  .mydiv{
+    height: 740px;
+    font-family: 'Dancing Script';
+  }
+  .polaroid img{
+    width: 100%;
+  }
+  .polaroid{
+    background-color: #fff3e7;
+    padding: 10px;
+    width: 24vw;
+  }
+  .name{
+    font-size: 6em;
+  }
+  .description{
+    font-size: 3rem;
+  }
